@@ -5,8 +5,8 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --white-color: hsl(0, 0%, 100%);
-  --black-color: hsl(0, 0%, 0%);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/

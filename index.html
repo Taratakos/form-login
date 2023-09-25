@@ -1,18 +1,64 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Login form - Bedimcode</title>
-   </head>
-   <body>
-      
-   </body>
+    <title>Login form - Bedimcode</title>
+  </head>
+  <body>
+    <div class="login">
+      <img
+        class="login__bg"
+        src="assets/img/login-bg.png"
+        alt="background image mountains"
+      />
+      <form class="login__form" action="#">
+        <h1 class="login__title">Login</h1>
+        <div class="login__inputs">
+          <div class="login__box">
+            <input
+              class="login__input"
+              type="email"
+              placeholder="Email ID"
+              required
+            />
+            <i class="ri-mail-fill"></i>
+          </div>
+          <div class="login__box">
+            <input
+              class="login__input"
+              type="password"
+              placeholder="Password"
+              required
+            />
+            <i class="ri-lock-2-fill"></i>
+          </div>
+        </div>
+        <div class="login__check">
+          <div class="login__check-box">
+            <input class="login__check-input" type="checkbox" id="user-check" />
+            <label class="login__check-label" for="user-check"
+              >Remember me</label
+            >
+            <a class="login__forgot" href="#!">Forgot Password</a>
+          </div>
+        </div>
+        <button class="login__button" type="submit">Login</button>
+        <div class="login__register">
+          Don't have an account? <a href="#!">Register</a>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
